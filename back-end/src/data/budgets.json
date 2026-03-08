@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "9390671c-cb9a-427c-a76d-746089fb7870",
+    "userId": "5948ab5a-7e66-4a23-a120-9ed88aee3f25",
+    "category": "food",
+    "limit": 8000,
+    "month": "2026-03",
+    "spent": 0
+  },
+  {
+    "_id": "4234054a-252d-4087-b74b-806981fffa0f",
+    "userId": "5948ab5a-7e66-4a23-a120-9ed88aee3f25",
+    "category": "transport",
+    "limit": 3000,
+    "month": "2026-03",
+    "spent": 0
+  },
+  {
+    "_id": "b814b9ab-cd9c-4649-ac18-d449ea4089f6",
+    "userId": "5948ab5a-7e66-4a23-a120-9ed88aee3f25",
+    "category": "shopping",
+    "limit": 5000,
+    "month": "2026-03",
+    "spent": 0
+  },
+  {
+    "_id": "a8e3adb6-8309-45df-b12f-6ae532c694dd",
+    "userId": "5948ab5a-7e66-4a23-a120-9ed88aee3f25",
+    "category": "entertain",
+    "limit": 2000,
+    "month": "2026-03",
+    "spent": 0
+  },
+  {
+    "_id": "f8aadb8c-7b6f-41b7-bafc-686e1ca0f922",
+    "userId": "5948ab5a-7e66-4a23-a120-9ed88aee3f25",
+    "category": "utilities",
+    "limit": 4000,
+    "month": "2026-03",
+    "spent": 0
+  },
+  {
+    "_id": "abdd775c-7991-4c71-ad2b-b6e5ac341292",
+    "userId": "5948ab5a-7e66-4a23-a120-9ed88aee3f25",
+    "category": "health",
+    "limit": 3000,
+    "month": "2026-03",
+    "spent": 0
+  }
+]

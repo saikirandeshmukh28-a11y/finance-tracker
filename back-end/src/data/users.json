@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "5948ab5a-7e66-4a23-a120-9ed88aee3f25",
+    "name": "Arjun Kumar",
+    "email": "arjun@example.com",
+    "phone": "+91 9876543210",
+    "password": "$2b$12$hppWG5FBhQ2.DsUo4nfGZObKW2JHjafhoAmh9tQIvBLk0bgx9yrPy",
+    "plan": "premium",
+    "isActive": true,
+    "createdAt": "2026-03-08T21:10:28.179Z"
+  },
+  {
+    "_id": "b4af8198-9bdd-4aa4-a582-97d97f054391",
+    "name": "saikiran",
+    "email": "skrndeshmukh@gmail.com",
+    "phone": "6300954228",
+    "password": "$2b$12$9oVASlMcD4h3HVib1GTf2.OQlUVz3MAq28LPzhmxwyvK2qZ3X9Jm2",
+    "plan": "free",
+    "isActive": true,
+    "createdAt": "2026-03-08T21:37:33.401Z"
+  },
+  {
+    "_id": "6854099e-a90d-4f65-ad7b-feeeb69224d7",
+    "name": "shiva",
+    "email": "shiva1234@gmail.com",
+    "phone": "9618980496",
+    "password": "$2b$12$JILo9WsQNWDKuXv/KOKTNOaAtsi742HKjbQZPBmfxcSuKe6uNomk.",
+    "plan": "free",
+    "isActive": true,
+    "createdAt": "2026-03-08T21:41:02.776Z"
+  }
+]
