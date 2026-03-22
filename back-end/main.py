@@ -7,8 +7,8 @@ app = FastAPI(title="FinVault API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -26,15 +26,3 @@ app.include_router(analytics.router,    prefix="/api/analytics",    tags=["Analy
 @app.get("/api/health")
 def health():
     return {"status": "ok", "message": "FinVault API is running"}
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "https://finvault.vercel.app",  # ← ADD YOUR VERCEL URL HERE
-    ],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)

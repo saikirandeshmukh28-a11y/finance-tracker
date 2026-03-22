@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = "https://fin-vault.onrender.com/api";
+const BASE = "https://finance-tracker-uj8z.onrender.com/api";
 
 const API = axios.create({
   baseURL: BASE,
