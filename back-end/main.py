@@ -16,6 +16,12 @@ app.add_middleware(
 @app.on_event("startup")
 def startup():
     init_db()
+    # Auto seed demo data on first run
+    try:
+        from seed import seed
+        seed()
+    except Exception as e:
+        print(f"Seed skipped: {e}")
 
 app.include_router(auth.router,         prefix="/api/auth",         tags=["Auth"])
 app.include_router(transactions.router, prefix="/api/transactions", tags=["Transactions"])
